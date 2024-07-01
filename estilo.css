@@ -2,7 +2,11 @@ body{
     padding: 0px;
     margin: 0px;
     border: 0px;
-    background-color: rgb(245, 245, 216);
+    background-image: url(imagens/festa_Junina.jpg); /*Coloca uma imagem no fundo*/
+    background-size: cover; /*Ajusta a imagem para cobrir todo o elemento*/
+    background-repeat: no-repeat;/*Não deixa a imagem se repetir*/
+    background-position: center center; /*Ajusta a imagem ao centro*/
+    height: 100vh; /*Deixa a imagem ocupando toda a área do body*/
     width: 1150px;
 }
 #topo{
@@ -10,6 +14,7 @@ body{
     height: 200px;
     padding: 0px;
     margin: 0px;
+    padding-left: 10px;
 }
 #logo_titulo{
     width: 1145px;
@@ -17,7 +22,7 @@ body{
 nav{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-size: 0,5em;
-   padding-left: 400px;
+   padding-left: 250px;
    border-top: 20px;
    margin-top: 10px;
    border-bottom: 0px;
@@ -25,6 +30,7 @@ nav{
 a{
     padding: 10px;
     margin-top: 3px;
+    margin-left: 50px;
     background-color: rgb(185, 219, 202);
     text-decoration: none;
     color: rgb(50, 71, 56);
