@@ -11,7 +11,7 @@ body{
    
 }
 #topo{
-    width: 100%;
+    width: 98%;
     height: 230px;
     padding: 0px;
     margin: 0px;
@@ -54,6 +54,13 @@ hr{
     
 }
 
+#naosei{
+    width: 1100px;
+    padding: 0px;
+    margin: 1px;
+    margin-left: 30px;
+}
+
 #carrossel{
     width: 1100px;
     height: 200px;
@@ -62,5 +69,42 @@ hr{
     margin-left: 35px;
     padding: 0px;
     margin-bottom: 10px;
+}
+
+#conteudo{
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+#esquerda{
+    width: 530px;
+    height: 400px;
+    background-color: aquamarine;
+    margin: 20px;
+    margin-left: 35px;
+    border-radius: 10px;
+}
+
+#direita{
+    width: 530px;
+    height: 400px;
+    background-color: aquamarine;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+footer{
+    width: 95%vh;
+    height: 40px;
+
+}
+#rodape{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(13, 83, 13);
+    padding: center;
+    text-align: center;
 }
 
