@@ -1,8 +1,13 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
 header{
     width: 99%; /*Definir a largura*/
     height: 100px; /*Definir altura*/
-    border: solid 1px black; /*Criado uma borda, linha, expessura da linha, cor da linha*/
-
+    display: flex;
 }
 
 #logo{
@@ -19,4 +24,32 @@ header{
     margin-top: 26px;
     padding: 0px;
     border: 0px;
+
+}
+
+#botoes{
+    padding-left: 800px;
+    padding-top: 25px;
+}
+
+#faixa{
+    width: 99%;
+    height: 44px;
+    display: flex;
+    background-color: rgb(240, 238, 238);
+    border: solid 1px black;
+}
+
+h1{
+    padding: 0px;
+    margin: 0px;
+    padding-left: 700px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(94, 92, 92);
+    font-size: 0.6em;
+    padding-top: 13px;
+    
 }
