@@ -7,7 +7,7 @@ body{
     background-repeat: no-repeat;/*Não deixa a imagem se repetir*/
     background-position: center center; /*Ajusta a imagem ao centro*/
     height: 100vh; /*Deixa a imagem ocupando toda a área do body*/
-    width: 1150px;
+    width: 1145px;
    
 }
 #topo{
@@ -113,3 +113,7 @@ footer{
     height: 60px;
     
 }
+
+
+
+
