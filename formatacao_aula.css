@@ -58,7 +58,7 @@ a{
     background-color: rgb(30, 30, 179);
     width: 99.8%;
     height: 435px;
-    border: solid 1px black;
+    
 }
 
 #btn2{
@@ -84,3 +84,5 @@ a{
 #b4{
     background-color: rgb(241, 21, 21);
 }
+
+
